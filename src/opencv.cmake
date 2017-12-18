@@ -1,0 +1,11 @@
+set(OPENCV_URL ${PROJECT_SOURCE_DIR}/dl/opencv-3.1.0.zip)
+
+ExternalProject_Add(opencv
+	URL ${OPENCV_URL}
+	SOURCE_DIR ${PROJECT_SOURCE_DIR}/src/opencv-3.1.0
+	BINARY_DIR ${PROJECT_BINARY_DIR}/opencv
+	# CONFIGURE_COMMAND ""
+	# BUILD_COMMAND     ""
+	# INSTALL_COMMAND   ""
+	# TEST_COMMAND      ""
+)

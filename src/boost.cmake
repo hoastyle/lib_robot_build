@@ -1,0 +1,9 @@
+set(BOOST_URL ${PROJECT_SOURCE_DIR}/dl/boost_1_60_0.tar.gz)
+
+ExternalProject_Add(boost
+	URL ${BOOST_URL}
+	SOURCE_DIR ${PROJECT_SOURCE_DIR}/src/boost_1_60_0
+	BINARY_DIR ${PROJECT_BINARY_DIR}/boost
+	CONFIGURE_COMMAND ""
+	BUILD_COMMAND "${CMAKE_CURRENT_SOURCE_DIR}/boost_1_60_0/bjam"
+)
