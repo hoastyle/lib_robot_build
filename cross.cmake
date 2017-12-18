@@ -1,8 +1,8 @@
 # set toolchain base path
-# SET(TOOLCHAIN_BASE_PATH /home/egzzy/Workspace/Project/R16/lib_robot_build/toolchain)
-# SET(LIB_PATH /home/egzzy/Workspace/Project/R16/lib_robot_build/lib)
-SET(TOOLCHAIN_BASE_PATH /mnt/Storage/share/Users/hao/Workspace/Org/lib_robot_build/toolchain/)
-SET(LIB_PATH /mnt/Storage/share/Users/hao/Workspace/Org/lib_robot_build/lib)
+SET(TOOLCHAIN_BASE_PATH /home/egzzy/Workspace/Project/R16/lib_robot_build/toolchain)
+SET(LIB_PATH /home/egzzy/Workspace/Project/R16/lib_robot_build/lib)
+# SET(TOOLCHAIN_BASE_PATH /mnt/Storage/share/Users/hao/Workspace/Org/lib_robot_build/toolchain/)
+# SET(LIB_PATH /mnt/Storage/share/Users/hao/Workspace/Org/lib_robot_build/lib)
 
 # this one is important
 SET(CMAKE_SYSTEM_NAME Linux)
